@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Hugo Theme Dream</title>
+    <link>http://localhost:1313/tags/</link>
+    <description>Recent content in Tags on Hugo Theme Dream</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 21 Jan 2026 00:07:18 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ESG</title>
+      <link>http://localhost:1313/tags/esg/</link>
+      <pubDate>Wed, 21 Jan 2026 00:07:18 +0800</pubDate>
+      <guid>http://localhost:1313/tags/esg/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>ESG Ratings</title>
+      <link>http://localhost:1313/tags/esg-ratings/</link>
+      <pubDate>Wed, 21 Jan 2026 00:07:18 +0800</pubDate>
+      <guid>http://localhost:1313/tags/esg-ratings/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Procurement</title>
+      <link>http://localhost:1313/tags/procurement/</link>
+      <pubDate>Wed, 21 Jan 2026 00:07:18 +0800</pubDate>
+      <guid>http://localhost:1313/tags/procurement/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Sustainability</title>
+      <link>http://localhost:1313/tags/sustainability/</link>
+      <pubDate>Wed, 21 Jan 2026 00:07:18 +0800</pubDate>
+      <guid>http://localhost:1313/tags/sustainability/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

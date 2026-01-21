@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="en"
+  x-data
+  :class="$store.darkMode.class()"
+  :data-theme="$store.darkMode.theme()">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>You Don’t Have an ESG Reporting Problem — You Have a Performance Problem | Hugo Theme Dream</title>
+
+    
+
+<link rel="canonical" href="http://localhost:1313/posts/esg-performance-not-reporting/" />
+
+
+
+<meta name="author" content="Dream" />
+<meta name="description" content="English ｜ 中文摘要 ｜ 中文首頁
+Opening Many companies believe their ESG ratings are stuck because their reports are not good enough.
+The narrative sounds familiar: “We need clearer disclosures.”
+“We need better alignment with frameworks.”
+“We need a more compelling ESG story.”
+But after years of working inside ESG initiatives, I have learned something uncomfortable:
+Most organizations do not have an ESG reporting problem.
+They have a performance problem.
+Why better reports don’t lead to better ESG ratings ESG ratings are often misunderstood.
+" />
+
+
+<meta name="keywords" content="ESG,ESG Ratings,Sustainability,Procurement">
+
+
+
+<meta name="generator" content="Hugo 0.154.5">
+
+
+<meta property="og:url" content="http://localhost:1313/posts/esg-performance-not-reporting/">
+  <meta property="og:site_name" content="Hugo Theme Dream">
+  <meta property="og:title" content="You Don’t Have an ESG Reporting Problem — You Have a Performance Problem">
+  <meta property="og:description" content="English ｜ 中文摘要 ｜ 中文首頁
+Opening Many companies believe their ESG ratings are stuck because their reports are not good enough.
+The narrative sounds familiar: “We need clearer disclosures.”
+“We need better alignment with frameworks.”
+“We need a more compelling ESG story.”
+But after years of working inside ESG initiatives, I have learned something uncomfortable:
+Most organizations do not have an ESG reporting problem.
+They have a performance problem.
+Why better reports don’t lead to better ESG ratings ESG ratings are often misunderstood.">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2026-01-21T00:07:18+08:00">
+    <meta property="article:modified_time" content="2026-01-21T00:07:18+08:00">
+    <meta property="article:tag" content="ESG">
+    <meta property="article:tag" content="ESG Ratings">
+    <meta property="article:tag" content="Sustainability">
+    <meta property="article:tag" content="Procurement">
+
+
+
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="You Don’t Have an ESG Reporting Problem — You Have a Performance Problem">
+  <meta name="twitter:description" content="English ｜ 中文摘要 ｜ 中文首頁
+Opening Many companies believe their ESG ratings are stuck because their reports are not good enough.
+The narrative sounds familiar: “We need clearer disclosures.”
+“We need better alignment with frameworks.”
+“We need a more compelling ESG story.”
+But after years of working inside ESG initiatives, I have learned something uncomfortable:
+Most organizations do not have an ESG reporting problem.
+They have a performance problem.
+Why better reports don’t lead to better ESG ratings ESG ratings are often misunderstood.">
+
+
+
+
+<link rel="stylesheet" href="/css/output.css" />
+
+
+
+
+    
+
+
+<style>
+  pre {
+    padding: 1em;
+    overflow: auto;
+  }
+</style>
+
+
+
+
+
+
+
+
+
+    
+
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+  </head>
+
+  <body x-data="{
+    flip: false,
+  }">
+    
+    <div id="dream-global-bg"></div>
+
+    
+<nav class="mt-4 lg:mt-8 py-4">
+
+  
+  <div class="container flex justify-between px-4">
+  
+    <section class="flex items-center gap-4">
+      <div class="avatar cursor-pointer hover:online" @click="flip = !flip" title="Flip it!">
+        <div class="h-10 rounded-full">
+          <img src="/img/Debrah.png" alt="Debrah Blog" />
+        </div>
+      </div>
+
+      
+      <div>
+        
+        <a href="http://localhost:1313/" class="text-lg font-semibold cursor-pointer">
+          Debrah Blog
+        </a>
+        
+        
+      </div>
+      
+    </section>
+
+    <div class="dropdown dropdown-end sm:hidden">
+      <div tabindex="0" role="button" class="btn btn-ghost btn-square" aria-label="Select an option">
+        <ion-icon name="menu" class="text-2xl"></ion-icon>
+      </div>
+      <ul tabindex="0" class="dropdown-content menu w-36 bg-base-100 rounded-box z-[1] shadow-md">
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li>
+  <a class="inline-flex items-center p-2 cursor-pointer" href="/posts" title="Archives">
+    <ion-icon name="archive"></ion-icon>
+    Archives
+  </a>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+<li>
+  <a class="inline-flex items-center p-2 cursor-pointer" href="/tags" title="All Tags">
+    <ion-icon name="pricetags"></ion-icon>
+    All Tags
+  </a>
+</li>
+
+
+
+
+
+
+      </ul>
+    </div>
+    <section class="hidden sm:flex sm:items-center sm:gap-2 md:gap-4">
+      
+
+      
+      
+
+      
+
+      
+      
+
+
+
+
+
+      
+      
+
+
+
+
+
+      
+      
+<a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary" href="/posts" title="Archives">
+  <ion-icon class="group-hover:text-primary-content" name="archive"></ion-icon>
+</a>
+
+
+      
+      
+
+
+
+
+
+      
+      
+<a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary" href="/tags" title="All Tags">
+  <ion-icon class="group-hover:text-primary-content" name="pricetags"></ion-icon>
+</a>
+
+
+      
+
+      
+
+      
+    </section>
+  </div>
+</nav>
+
+
+    <div class="flip-container" :class="{ 'flip-it': flip }">
+      <div class="flipper">
+        <div class="front">
+          <div class="container">
+            
+<div class="mt-4 px-4">
+  
+  <div>
+  
+    
+    <article class="mx-auto prose prose-quoteless dark:prose-invert" id="dream-single-post-main" itemscope itemtype="http://schema.org/Article">
+      
+  <meta itemprop="name" content="You Don’t Have an ESG Reporting Problem — You Have a Performance Problem">
+  <meta itemprop="description" content="English ｜ 中文摘要 ｜ 中文首頁
+Opening Many companies believe their ESG ratings are stuck because their reports are not good enough.
+The narrative sounds familiar: “We need clearer disclosures.”
+“We need better alignment with frameworks.”
+“We need a more compelling ESG story.”
+But after years of working inside ESG initiatives, I have learned something uncomfortable:
+Most organizations do not have an ESG reporting problem.
+They have a performance problem.
+Why better reports don’t lead to better ESG ratings ESG ratings are often misunderstood.">
+  <meta itemprop="datePublished" content="2026-01-21T00:07:18+08:00">
+  <meta itemprop="dateModified" content="2026-01-21T00:07:18+08:00">
+  <meta itemprop="wordCount" content="507">
+  <meta itemprop="keywords" content="ESG,ESG Ratings,Sustainability,Procurement">
+
+      <header>
+        <h1 itemprop="headline">You Don’t Have an ESG Reporting Problem — You Have a Performance Problem</h1>
+        <p class="text-sm">
+          
+            Wednesday, Jan 21, 2026
+          
+
+          | <span>3 minute read</span>
+
+          
+          | <span>Updated at
+            
+              Wednesday, Jan 21, 2026
+            </span>
+          
+        </p>
+        <div class="flex justify-between">
+          <div class="flex items-center">
+  
+  <span>@</span>
+  
+
+  <span itemprop="author" itemscope itemtype="https://schema.org/Person">
+  
+    <span itemprop="name">Dream</span>
+  
+  </span>
+</div>
+
+
+          <div class="flex items-center gap-2">
+  
+  
+
+  
+  
+  
+  
+  
+    <a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary"
+      href="https://x.com/intent/post?text=You%20Don%e2%80%99t%20Have%20an%20ESG%20Reporting%20Problem%20%e2%80%94%20You%20Have%20a%20Performance%20Problem&amp;url=http://localhost:1313/posts/esg-performance-not-reporting/" target="_blank" rel="noopener noreferrer"
+      title="Share on X">
+      <ion-icon class="group-hover:text-primary-content" name="logo-x"></ion-icon>
+    </a>
+  
+    <a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary"
+      href="https://facebook.com/sharer/sharer.php?u=http://localhost:1313/posts/esg-performance-not-reporting/" target="_blank" rel="noopener noreferrer"
+      title="Share on Facebook">
+      <ion-icon class="group-hover:text-primary-content" name="logo-facebook"></ion-icon>
+    </a>
+  
+    <a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary"
+      href="https://wa.me/?text=You%20Don%e2%80%99t%20Have%20an%20ESG%20Reporting%20Problem%20%e2%80%94%20You%20Have%20a%20Performance%20Problem%20http://localhost:1313/posts/esg-performance-not-reporting/" target="_blank" rel="noopener noreferrer"
+      title="Share on WhatsApp">
+      <ion-icon class="group-hover:text-primary-content" name="logo-whatsapp"></ion-icon>
+    </a>
+  
+
+  
+  
+</div>
+
+        </div>
+      </header>
+
+      
+
+      <p><strong>English</strong> ｜ <a href="/Debrah/content/posts/esg01_ch/">中文摘要</a> ｜ <a href="/Debrah/ch/">中文首頁</a></p>
+<h2 id="opening">Opening</h2>
+<p>Many companies believe their ESG ratings are stuck because their reports are not good enough.</p>
+<p>The narrative sounds familiar:
+<em>“We need clearer disclosures.”</em><br>
+<em>“We need better alignment with frameworks.”</em><br>
+<em>“We need a more compelling ESG story.”</em></p>
+<p>But after years of working inside ESG initiatives, I have learned something uncomfortable:</p>
+<p><strong>Most organizations do not have an ESG reporting problem.<br>
+They have a performance problem.</strong></p>
+<hr>
+<h2 id="why-better-reports-dont-lead-to-better-esg-ratings">Why better reports don’t lead to better ESG ratings</h2>
+<p>ESG ratings are often misunderstood.</p>
+<p>They are not designed to reward elegant narratives or well-written reports.
+They are designed to evaluate <strong>what can be verified</strong>.</p>
+<p>When organizations focus primarily on improving the report itself, they often miss a critical point:
+reports do not create performance — they reflect it.</p>
+<p>If there is no measurable improvement behind the disclosure,
+no amount of storytelling can sustainably improve ESG scores.</p>
+<p>This is why many companies experience the same frustration year after year:
+more effort, more pages, more alignment —
+but little movement in ratings.</p>
+<hr>
+
+
+
+  <blockquote>
+    <p><strong>Key insight:</strong><br>
+ESG ratings improve when performance becomes visible, not when reports become polished.</p>
+
+  </blockquote>
+
+<hr>
+<h2 id="what-esg-ratings-actually-respond-to">What ESG ratings actually respond to</h2>
+<p>Across major ESG evaluation frameworks, one pattern is consistent:
+<strong>measurable outcomes matter more than intentions.</strong></p>
+<p>Ratings respond to signals such as:</p>
+<ul>
+<li>Evidence of reduced operational risk</li>
+<li>Data-backed improvements in supplier performance</li>
+<li>Consistency between policies and execution</li>
+<li>Decision-making processes that can be traced and explained</li>
+</ul>
+<p>When these signals are weak or fragmented,
+ratings stagnate — regardless of how complete the report appears.</p>
+<hr>
+<h2 id="where-the-real-gap-begins">Where the real gap begins</h2>
+<p>The gap usually forms long before the reporting phase.</p>
+<p>It begins when ESG initiatives are treated as parallel projects,
+separate from operational and procurement decisions.</p>
+<p>In this setup:</p>
+<ul>
+<li>Sustainability goals exist, but lack owners</li>
+<li>Data is collected, but not decision-grade</li>
+<li>ESG teams report effort, not outcomes</li>
+</ul>
+<p>As a result, reports end up describing ambition rather than performance.</p>
+<hr>
+<h2 id="why-procurement-determines-what-shows-up-in-esg-reports">Why procurement determines what shows up in ESG reports</h2>
+<p>Procurement is where ESG either becomes measurable — or remains theoretical.</p>
+<p>It is the function that connects sustainability goals to:</p>
+<ul>
+<li>Supplier selection</li>
+<li>Cost and risk trade-offs</li>
+<li>Data availability</li>
+<li>Operational accountability</li>
+</ul>
+<p>When ESG is not embedded into procurement processes,
+organizations struggle to produce the kind of evidence ESG ratings rely on.</p>
+<p>Not because they lack commitment —
+but because performance is never structured to be captured.</p>
+<hr>
+<h2 id="what-i-focus-on-today">What I focus on today</h2>
+<p>My work is grounded in a simple belief:</p>
+
+
+
+  <blockquote>
+    <p><strong>If ESG performance cannot be demonstrated, it cannot be rewarded.</strong></p>
+
+  </blockquote>
+
+<p>I help organizations shift their focus from
+<em>“How do we complete the ESG report?”</em>
+to
+<em>“What performance must exist for the report to be credible?”</em></p>
+<p>When ESG goals are translated into procurement performance,
+reports stop being a challenge —
+they become a consequence.</p>
+<hr>
+<h2 id="closing-thought">Closing thought</h2>
+<p>ESG ratings rarely fail because companies do not care.</p>
+<p>They fail because performance is not designed to be seen.</p>
+<p>When organizations stop treating ESG reporting as the problem,
+and start building systems that generate real, traceable outcomes,
+ratings begin to move.</p>
+<p>Not because the story improved —
+but because the performance finally did.</p>
+<hr>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+
+
+      
+    </article>
+  </div>
+
+  
+</div>
+
+
+            
+<footer class="flex justify-between items-center gap-2 px-4 py-12">
+
+  <div>
+  
+  <p>
+    © 2016 - 2026 Hugo Theme Dream
+  </p>
+  
+
+  
+  <p class="text-sm">
+    🌱
+    <span class="text-base-content/60">
+      Powered by <a class="hover:underline" href="https://gohugo.io/" target="_blank">Hugo</a> with theme
+      <a class="hover:underline" href="https://github.com/g1eny0ung/hugo-theme-dream" target="_blank">Dream</a>.</span
+    >
+  </p>
+  
+</div>
+
+  <div
+  x-data="{ icons: [
+    { name: 'moon', status: 'y' },
+    { name: 'sunny', status: 'n' },
+    { name: 'desktop', status: 'auto' }
+  ] }"
+  class="flex items-center h-[32px] px-2 gap-2 border border-base-content/30 rounded-full"
+>
+  <template x-for="icon in icons">
+    <div
+      role="button"
+      tabindex="0"
+      :aria-label="'Select ' + icon.name + ' mode'"
+      class="group inline-flex justify-center items-center p-1 rounded-full cursor-pointer hover:bg-primary"
+      :class="$store.darkMode.icon() === icon.name && 'bg-primary'"
+      @click="$store.darkMode.toggle(icon.status)"
+    >
+      <ion-icon
+        :name="`${icon.name}-outline`"
+        class="group-hover:text-primary-content"
+        :class="$store.darkMode.icon() === icon.name && 'text-primary-content'"
+      >
+      </ion-icon>
+    </div>
+  </template>
+</div>
+
+</footer>
+
+          </div>
+        </div>
+        <div class="back">
+          <div class="container">
+            
+            <div class="dream-grid dream-grid-about">
+  
+
+  
+
+  
+</div>
+
+            
+
+            
+<footer class="flex justify-between items-center gap-2 px-4 py-12">
+
+  <div>
+  
+  <p>
+    © 2016 - 2026 Hugo Theme Dream
+  </p>
+  
+
+  
+  <p class="text-sm">
+    🌱
+    <span class="text-base-content/60">
+      Powered by <a class="hover:underline" href="https://gohugo.io/" target="_blank">Hugo</a> with theme
+      <a class="hover:underline" href="https://github.com/g1eny0ung/hugo-theme-dream" target="_blank">Dream</a>.</span
+    >
+  </p>
+  
+</div>
+
+  <div
+  x-data="{ icons: [
+    { name: 'moon', status: 'y' },
+    { name: 'sunny', status: 'n' },
+    { name: 'desktop', status: 'auto' }
+  ] }"
+  class="flex items-center h-[32px] px-2 gap-2 border border-base-content/30 rounded-full"
+>
+  <template x-for="icon in icons">
+    <div
+      role="button"
+      tabindex="0"
+      :aria-label="'Select ' + icon.name + ' mode'"
+      class="group inline-flex justify-center items-center p-1 rounded-full cursor-pointer hover:bg-primary"
+      :class="$store.darkMode.icon() === icon.name && 'bg-primary'"
+      @click="$store.darkMode.toggle(icon.status)"
+    >
+      <ion-icon
+        :name="`${icon.name}-outline`"
+        class="group-hover:text-primary-content"
+        :class="$store.darkMode.icon() === icon.name && 'text-primary-content'"
+      >
+      </ion-icon>
+    </div>
+  </template>
+</div>
+
+</footer>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+  window.lightTheme = "emerald"
+  window.darkTheme = "forest"
+</script>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/imagesloaded@5.0.0/imagesloaded.pkgd.min.js" integrity="sha256-htrLFfZJ6v5udOG+3kNLINIKh2gvoKqwEhHYfTTMICc=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI=" crossorigin="anonymous"></script>
+
+  
+  
+  <script src="/js/grid.js"></script>
+
+
+
+
+<script src="/js/main.js"></script>
+
+    
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    <script type="module" src="https://unpkg.com/ionicons@7.4.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.4.0/dist/ionicons/ionicons.js"></script>
+  </body>
+</html>
