@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://example.com/tags/esg/</loc>
+    <lastmod>2026-01-21T00:07:18+08:00</lastmod>
+  </url><url>
+    <loc>https://example.com/tags/esg-ratings/</loc>
+    <lastmod>2026-01-21T00:07:18+08:00</lastmod>
+  </url><url>
+    <loc>https://example.com/</loc>
+    <lastmod>2026-01-21T00:07:18+08:00</lastmod>
+  </url><url>
+    <loc>https://example.com/posts/</loc>
+    <lastmod>2026-01-21T00:07:18+08:00</lastmod>
+  </url><url>
+    <loc>https://example.com/tags/procurement/</loc>
+    <lastmod>2026-01-21T00:07:18+08:00</lastmod>
+  </url><url>
+    <loc>https://example.com/tags/sustainability/</loc>
+    <lastmod>2026-01-21T00:07:18+08:00</lastmod>
+  </url><url>
+    <loc>https://example.com/tags/</loc>
+    <lastmod>2026-01-21T00:07:18+08:00</lastmod>
+  </url><url>
+    <loc>https://example.com/posts/esg-performance-not-reporting/</loc>
+    <lastmod>2026-01-21T00:07:18+08:00</lastmod>
+  </url><url>
+    <loc>https://example.com/categories/</loc>
+  </url><url>
+    <loc>https://example.com/posts/esg01_ch/</loc>
+  </url>
+</urlset>
